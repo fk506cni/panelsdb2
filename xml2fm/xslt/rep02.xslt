@@ -76,6 +76,15 @@
         <FIELD NAME="all_indel_rate" TYPE="NUMBER"/>
         <FIELD NAME="all_total_rate" TYPE="NUMBER"/>
 
+        <FIELD NAME="sequencing_count_snv_count" TYPE="NUMBER"/>
+        <FIELD NAME="sequencing_count_cna_count" TYPE="NUMBER"/>
+        <FIELD NAME="sequencing_count_fusion_count" TYPE="NUMBER"/>
+        <FIELD NAME="sequencing_count_germline_count" TYPE="NUMBER"/>
+
+        <FIELD NAME="msi_status" TYPE="NUMBER"/>
+        <FIELD NAME="msi_score" TYPE="TEXT"/>
+
+
         <!--
         <FIELD NAME="comment" TYEP="TEXT" />
         -->
@@ -387,6 +396,38 @@
           <COL>
             <DATA>
               <xsl:value-of select="report/mutation_count/all_total_rate"/>
+            </DATA>
+          </COL>
+                    
+          <COL>
+            <DATA>
+              <xsl:value-of select="report/sequencing_count/snv_count"/>
+            </DATA>
+          </COL>
+          <COL>
+            <DATA>
+              <xsl:value-of select="report/sequencing_count/snv_count"/>
+            </DATA>
+          </COL>
+          <COL>
+            <DATA>
+              <xsl:value-of select="report/sequencing_count/snv_count"/>
+            </DATA>
+          </COL>
+          <COL>
+            <DATA>
+              <xsl:value-of select="report/sequencing_count/snv_count"/>
+            </DATA>
+          </COL>
+
+          <COL>
+            <DATA>
+              <xsl:value-of select="report/msi/status"/>
+            </DATA>
+          </COL>
+          <COL>
+            <DATA>
+              <xsl:value-of select="report/msi/score"/>
             </DATA>
           </COL>
           <!--
