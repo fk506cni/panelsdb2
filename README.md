@@ -10,7 +10,7 @@ DBその他まとめはxml2fm.zipをダウンロードしてください。
 2021/10/15  
 updateしました
 
-F1Liquidへ対応  
+FoundationOne® Liquid CDxへ対応  
 G360サマリーデータに対応  
 全パネル纏めデータ作成等  
 panelsdb2操作メモ_2.pptxを参照ください  
