@@ -1,6 +1,6 @@
 # panelsdb2
 
-F1CDX及びNOPの結果xmlを格納するFMDB
+FoundationOne® CDx 及び NCC Oncopanelの結果xmlを格納するFileMaker DB
 
 DBその他まとめはxml2fm.zipをダウンロードしてください。
 
