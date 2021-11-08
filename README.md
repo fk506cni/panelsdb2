@@ -39,11 +39,6 @@ Regarding research use, I think that you can use it freely at your own risk, but
 Please download panelsdb2/xml2fm.zip and extract it.  
 You need to install FM to your PC before use this.  
 
-## Admin User Account
-name: Admin  
-PW: DR>ba)4W&L  
-It is not assumed that the password will be memorized or manually entered. Please change to a password suitable for each facility.
-
 ### How to use
 dx.doi.org/10.17504/protocols.io.bzvip64e  
 
@@ -52,6 +47,8 @@ PanelsDB2, FMDB to manage CGP report xml data. F.Keita
 https://github.com/fk506cni/panelsdb2  
 dx.doi.org/10.17504/protocols.io.bzvip64e  
 
+
+## introduction 
 FoundationOne® CDx 及び NCC Oncopanelの結果xmlを格納するFileMaker DB
 
 DBその他まとめはxml2fm.zipをダウンロードしてください。
